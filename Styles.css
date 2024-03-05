@@ -1,0 +1,48 @@
+.table-container {
+    overflow-y: scroll;
+    max-height: 300px; /* Adjust as needed */
+  }
+  
+  table {
+    padding-top: 100px;
+    border-collapse: collapse;
+    width: 75%;
+  }
+  
+  th, td {
+    border: 1px solid black;
+    padding: 4px;
+    text-align: left;
+  }
+  
+  thead {
+    display: table;
+    width: 50%;
+    table-layout: fixed;
+    background-color: #fff;
+  }
+  
+  tbody {
+    padding-top: 100px;
+    display: block;
+    overflow-y: scroll;
+    height: 200px; /* Adjust as needed */
+  }
+  
+  tr:nth-child(even) {
+    background-color: #fafafa;
+  }
+  
+  tr:hover {
+    background-color: #00000017;
+  }
+  header {
+    background-color: #29292981;
+    color: #fff;
+    padding: 5px 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999; /* Ensures it's above other content */
+  }  
